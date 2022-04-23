@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>page one</title>
+
+</head>
+<style>
+
+	
+	@media only screen and (max-width: 982px) 
+	{ 
+		.full{
+		flex-direction: column;
+	}
+}
+	@media only screen and (max-width: 982px) 
+	{ 
+		.flex-container{
+		flex-direction: column;
+	}
+ 
+}
+
+body{
+		background-image: url(bg.jpg);
+		background-repeat: no-repeat;
+		background-size:cover;
+	
+	}
+
+	.flex-container{
+		display:flex;
+		margin-top:100px ;
+	}
+	.nav{
+		border: 1px solid transparent;
+		background-color: black;
+		height: 60px;
+		background: rgba(0, 0, 0, 0.3);
+		word-spacing: 20px;
+		text-align: right;
+
+	}
+	.nav a{
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+
+
+
+	}
+	.link select{
+		border: none;
+		background-color: black;
+		background: rgba(0, 0, 0, 0.3);
+		color: white;
+		font-size: 20PX;
+	}
+	.box1{ 
+		border :2px solid transparent;
+		height: 250px;
+		width: 350px;
+		background-color:#DC7633;
+		padding: 20px;
+		margin: 20px;
+		
+
+
+	 }
+	 .box2{ 
+		border :2px solid transparent;
+		height: 250px;
+		width: 350px;
+		background-color:#DC7633 ;
+		padding: 20px;
+		margin: 20px;
+
+		
+	
+	}
+	.box3{ 
+		border :2px solid transparent;
+		height: 250px;
+		width: 350px;
+		background-color:#DC7633;
+		padding: 20px;
+		margin: 20px;
+		
+
+	}
+	.box1 h2{
+		text-align: center;
+		color: black ;
+	}
+	.box1 p{
+		font-size: 20px;
+		color: white;
+	}
+	.box2 h2{
+		text-align: center;
+		color:black ;
+	}
+	.box2 p{
+		font-size: 20px;
+		color: white;
+	}
+	.box3 h2{
+		text-align: center;
+		color:black ;
+	}
+	.box3 p{
+		font-size: 20px;
+		color: white;
+	}
+	.foo{
+		text-align: center;
+		background-color: black;
+		color: white;
+		background: rgba(0, 0, 0, 0.3);
+	}
+
+</style>
+<body>
+	<div class="full">
+	
+	<div class="nav">
+		<div class="link">
+		<a href="home.html">Home</a>
+		<a href="Gallery.html">Gallery</a>
+        <select>
+        	<option>Aboutus</option>
+        	<option>vision</option>
+        	<option>mission</option>
+        </select>
+        <a href="Contact.html">Contact</a>
+    </div>
+	</div>
+</div>
+
+	<div class="flex-container">
+		<div class="box1">
+			<h2>HTML</h2>
+			<P>HTML is the most basic building block of the Web. It defines the meaning and structure of web content. </P>
+		</div>
+		<div class="box2">
+			<h2>JAVASCRIPT</h2>
+			<p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTM</p>
+		</div>
+		<div class="box3">
+			<h2>CSS</h2>
+			<p> JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</p>
+		</div>
+	</div>
+	<div class="foo">
+	<footer>
+		<p>copyright2022@gmail.com</p>
+	</footer>
+</div>
+
+
+</body>
+</html>
